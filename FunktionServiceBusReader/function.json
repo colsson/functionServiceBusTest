@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "queueItem",
+      "type": "serviceBusTrigger",
+      "queueName": "userdataqueue",
+      "connection": "ServiceBusConnection",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
